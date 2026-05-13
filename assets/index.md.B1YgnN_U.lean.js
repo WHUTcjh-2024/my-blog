@@ -1,0 +1,1 @@
+import{_ as t,C as a,o,c as n,E as r}from"./chunks/framework.-mROjw-3.js";const x=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),s={name:"index.md"};function c(d,i,p,m,_,l){const e=a("HomePage");return o(),n("div",null,[r(e)])}const u=t(s,[["render",c]]);export{x as __pageData,u as default};
