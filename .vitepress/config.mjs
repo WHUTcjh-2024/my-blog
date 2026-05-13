@@ -12,7 +12,8 @@ export default defineConfig({
     nav: [
       { text: "学习小记", link: "/api-examples" },
       { text: "项目阐述", link: "/markdown-examples" },
-      { text: "算法", link: "/algorithms" }
+      { text: "算法", link: "/algorithms" },
+      { text: "深度学习", link: "/线性神经网络1" }
     ],
 
     sidebar: [
@@ -22,11 +23,15 @@ export default defineConfig({
       },
       {
         text: "项目阐述",
-        items: [{ text: "博客项目介绍", link: "/markdown-examples" }]
+        items: [{ text: "激光衍射测量系统", link: "/markdown-examples" }]
       },
       {
         text: "算法",
         items: [{ text: "算法笔记", link: "/algorithms" }]
+      },
+      {
+        text: "深度学习",
+        items: [{ text: "线性神经网络之线性回归", link: "/线性神经网络1" }]
       }
     ],
 
