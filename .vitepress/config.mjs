@@ -13,7 +13,13 @@ export default defineConfig({
       { text: "学习小记", link: "/api-examples" },
       { text: "项目阐述", link: "/基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统" },
       { text: "算法", link: "/algorithms" },
-      { text: "深度学习", link: "/线性神经网络1" }
+      {
+        text: "深度学习",
+        items: [
+          { text: "线性神经网络之线性回归", link: "/线性神经网络1" },
+          { text: "线性神经网络之softmax回归", link: "/线性神经网络2" }
+        ]
+      }
     ],
 
     sidebar: [
@@ -31,7 +37,10 @@ export default defineConfig({
       },
       {
         text: "深度学习",
-        items: [{ text: "线性神经网络之线性回归", link: "/线性神经网络1" }]
+        items: [
+          { text: "线性神经网络之线性回归", link: "/线性神经网络1" },
+          { text: "线性神经网络之softmax回归", link: "/线性神经网络2" }
+        ]
       }
     ],
 
