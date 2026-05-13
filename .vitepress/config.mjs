@@ -11,7 +11,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "学习小记", link: "/api-examples" },
-      { text: "项目阐述", link: "/markdown-examples" },
+      { text: "项目阐述", link: "/基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统" },
       { text: "算法", link: "/algorithms" },
       { text: "深度学习", link: "/线性神经网络1" }
     ],
@@ -23,7 +23,7 @@ export default defineConfig({
       },
       {
         text: "项目阐述",
-        items: [{ text: "激光衍射测量系统", link: "/markdown-examples" }]
+        items: [{ text: "基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统", link: "/基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统" }]
       },
       {
         text: "算法",

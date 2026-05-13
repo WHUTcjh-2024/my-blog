@@ -43,6 +43,12 @@
           <p class="card-desc">这里是我在做力扣题目时的一些感悟与思考</p>
           <span class="card-arrow">→</span>
         </a>
+        <a class="nav-card" href="/my-blog/线性神经网络1.html">
+          <div class="card-icon">🤖</div>
+          <h3 class="card-title">深度学习</h3>
+          <p class="card-desc">这里记录深度学习相关的学习笔记与实践心得</p>
+          <span class="card-arrow">→</span>
+        </a>
       </div>
     </div>
 
@@ -240,7 +246,7 @@ a.contact-chip:hover {
 
 .nav-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
@@ -267,6 +273,10 @@ a.contact-chip:hover {
 
 .nav-card:nth-child(3) {
   animation-delay: 0.3s;
+}
+
+.nav-card:nth-child(4) {
+  animation-delay: 0.4s;
 }
 
 .nav-card::before {
