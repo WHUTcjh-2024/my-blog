@@ -10,36 +10,62 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: "学习小记", link: "/api-examples" },
-      { text: "项目阐述", link: "/基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统" },
-      { text: "算法", link: "/algorithms" },
+      {
+        text: "项目阐述",
+        items: [
+          { text: "基于SIREN与PINNs的激光衍射高精度自动测量系统", link: "/基于-SIREN-与-PINNs-的激光衍射高精度自动测量系统" },
+          { text: "基于RAG的多模态电商智能导购agent", link: "/api-examples" }
+        ]
+      },
+      { text: "算法学习", link: "/algorithms" },
       {
         text: "深度学习",
         items: [
-          { text: "线性神经网络之线性回归", link: "/线性神经网络1" },
-          { text: "线性神经网络之softmax回归", link: "/线性神经网络2" }
+          { text: "线性回归", link: "/线性神经网络1" },
+          { text: "softmax回归", link: "/线性神经网络2" },
+          { text: "多层感知机（MLP）", link: "/api-examples" },
+          { text: "卷积神经网络（CNN）", link: "/api-examples" },
+          { text: "深度卷积神经网络（AlexNet）", link: "/api-examples" },
+          { text: "使用块的网络（VGG）", link: "/api-examples" },
+          { text: "网络中的网络（NiN）", link: "/api-examples" },
+          { text: "含并行连结的网络（GoogLeNet）", link: "/api-examples" },
+          { text: "残差网络（ResNet）", link: "/api-examples" },
+          { text: "稠密连接网络（DenseNet）", link: "/api-examples" },
+          { text: "循环神经网络（RNN）", link: "/api-examples" },
+          { text: "注意力机制与Transformer", link: "/api-examples" }
         ]
       }
     ],
 
     sidebar: [
       {
-        text: "学习小记",
-        items: [{ text: "前端 · 网络 · 操作系统", link: "/api-examples" }]
+        text: "深度学习",
+        items: [
+          { text: "线性回归", link: "/线性神经网络1" },
+          { text: "softmax回归", link: "/线性神经网络2" },
+          { text: "多层感知机（MLP）", link: "/api-examples" },
+          { text: "卷积神经网络（CNN）", link: "/api-examples" },
+          { text: "AlexNet", link: "/api-examples" },
+          { text: "VGG", link: "/api-examples" },
+          { text: "NiN", link: "/api-examples" },
+          { text: "GoogLeNet", link: "/api-examples" },
+          { text: "ResNet", link: "/api-examples" },
+          { text: "DenseNet", link: "/api-examples" },
+          { text: "循环神经网络（RNN）", link: "/api-examples" },
+          { text: "注意力机制与Transformer", link: "/api-examples" }
+        ]
       },
       {
         text: "项目阐述",
-        items: [{ text: "基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统", link: "/基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统" }]
+        items: [
+          { text: "基于SIREN与PINNs的激光衍射系统", link: "/基于-SIREN-与-PINNs-的激光衍射高精度自动测量系统" }
+          { text: "基于RAG的多模态电商智能导购agent", link: "/api-examples" }
+        ]
       },
       {
         text: "算法",
-        items: [{ text: "算法笔记", link: "/algorithms" }]
-      },
-      {
-        text: "深度学习",
         items: [
-          { text: "线性神经网络之线性回归", link: "/线性神经网络1" },
-          { text: "线性神经网络之softmax回归", link: "/线性神经网络2" }
+          { text: "算法笔记", link: "/algorithms" }
         ]
       }
     ],
@@ -52,9 +78,7 @@ export default defineConfig({
       label: '页面导航'
     },
 
-    lastUpdated: {
-      text: '最后更新于'
-    },
+    lastUpdated: false,
 
     docFooter: {
       prev: '上一篇',
@@ -62,9 +86,7 @@ export default defineConfig({
     },
 
     returnToTopLabel: '回到顶部',
-
     sidebarMenuLabel: '菜单',
-
     darkModeSwitchLabel: '深色模式'
   }
 })
