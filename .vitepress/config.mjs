@@ -19,6 +19,12 @@ export default defineConfig({
       },
       { text: "算法学习", link: "/algorithms" },
       {
+        text: "Kaggle竞赛",
+        items: [
+          { text: "Spaceship Titanic", link: "/Spaceship Titanic" }
+        ]
+      },
+      {
         text: "深度学习",
         items: [
           { text: "线性回归", link: "/线性神经网络1" },
@@ -66,6 +72,12 @@ export default defineConfig({
         text: "算法",
         items: [
           { text: "算法笔记", link: "/algorithms" }
+        ]
+      },
+      {
+        text: "Kaggle竞赛",
+        items: [
+          { text: "Spaceship Titanic", link: "/Spaceship Titanic" }
         ]
       }
     ],
