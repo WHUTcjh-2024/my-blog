@@ -21,7 +21,8 @@ export default defineConfig({
       {
         text: "Kaggle竞赛",
         items: [
-          { text: "Spaceship Titanic", link: "/Spaceship Titanic" }
+          { text: "Spaceship Titanic", link: "/Spaceship Titanic" },
+          { text: "CIFAR-100 图像分类", link: "/CIFAR-100 - Object Recognition in Images" }
         ]
       },
       {
@@ -77,7 +78,8 @@ export default defineConfig({
       {
         text: "Kaggle竞赛",
         items: [
-          { text: "Spaceship Titanic", link: "/Spaceship Titanic" }
+          { text: "Spaceship Titanic", link: "/Spaceship Titanic" },
+          { text: "CIFAR-100 图像分类", link: "/CIFAR-100 - Object Recognition in Images" }
         ]
       }
     ],
