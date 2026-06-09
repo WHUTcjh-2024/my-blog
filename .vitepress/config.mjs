@@ -14,7 +14,7 @@ export default defineConfig({
         text: "项目阐述",
         items: [
           { text: "基于SIREN与PINNs的激光衍射高精度自动测量系统", link: "/基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统" },
-          { text: "基于RAG的多模态电商智能导购agent", link: "/api-examples" }
+          { text: "基于RAG的多模态电商智能导购agent", link: "/基于RAG的多模态电商智能导购agent" }
         ]
       },
       { text: "算法学习", link: "/algorithms" },
@@ -35,11 +35,11 @@ export default defineConfig({
           { text: "深度卷积神经网络（AlexNet）", link: "/深度卷积神经网络" },
           { text: "使用块的网络（VGG）", link: "/VGG" },
           { text: "网络中的网络（NiN）", link: "/NiN" },
-          { text: "含并行连结的网络（GoogLeNet）", link: "/api-examples" },
-          { text: "残差网络（ResNet）", link: "/api-examples" },
-          { text: "稠密连接网络（DenseNet）", link: "/api-examples" },
-          { text: "循环神经网络（RNN）", link: "/api-examples" },
-          { text: "注意力机制与Transformer", link: "/api-examples" }
+          { text: "含并行连结的网络（GoogLeNet）", link: "/GoogLeNet" },
+          { text: "残差网络（ResNet）", link: "/ResNet" },
+          { text: "稠密连接网络（DenseNet）", link: "/DenseNet" },
+          { text: "循环神经网络（RNN）", link: "/循环神经网络" },
+          { text: "注意力机制与Transformer", link: "/注意力机制与Transformer" }
         ]
       }
     ],
@@ -55,18 +55,18 @@ export default defineConfig({
           { text: "AlexNet", link: "/深度卷积神经网络" },
           { text: "VGG", link: "/VGG" },
           { text: "NiN", link: "/NiN" },
-          { text: "GoogLeNet", link: "/api-examples" },
-          { text: "ResNet", link: "/api-examples" },
-          { text: "DenseNet", link: "/api-examples" },
-          { text: "循环神经网络（RNN）", link: "/api-examples" },
-          { text: "注意力机制与Transformer", link: "/api-examples" }
+          { text: "GoogLeNet", link: "/GoogLeNet" },
+          { text: "ResNet", link: "/ResNet" },
+          { text: "DenseNet", link: "/DenseNet" },
+          { text: "循环神经网络（RNN）", link: "/循环神经网络" },
+          { text: "注意力机制与Transformer", link: "/注意力机制与Transformer" }
         ]
       },
       {
         text: "项目阐述",
         items: [
           { text: "基于SIREN与PINNs的激光衍射系统", link: "/基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统" },
-          { text: "基于RAG的多模态电商智能导购agent", link: "/api-examples" }
+          { text: "基于RAG的多模态电商智能导购agent", link: "/基于RAG的多模态电商智能导购agent" }
         ]
       },
       {
