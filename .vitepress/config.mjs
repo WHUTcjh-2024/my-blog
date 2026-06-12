@@ -66,13 +66,13 @@ export default defineConfig({
         text: "项目阐述",
         items: [
           { text: "基于SIREN与PINNs的激光衍射系统", link: "/基于 SIREN 与 PINNs 的激光衍射高精度自动测量系统" },
-          { text: "基于RAG的多模态电商智能导购agent", link: "/基于RAG的多模态电商智能导购agent" }
+          { text: "基于RAG的多模态电商智能导购agent", link: "/api-examples" }
         ]
       },
       {
         text: "算法",
         items: [
-          { text: "算法笔记", link: "/algorithms" }
+          { text: "算法笔记", link: "/api-examples" }
         ]
       },
       {
