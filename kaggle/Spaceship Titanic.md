@@ -3,7 +3,7 @@
 我使用Colab的免费T4 GPU来完成这个轻量级实战项目。
 
 仅使用MLP，在公开榜单上获得了0.79845分。
-![alt text](image-7.png)
+![alt text](/images/kaggle/image-7.png)
 
 我首先拿到了数据集，然后读取并打印了它们，结合kaggle竞赛的官网数据集介绍大致了解了一下，然后使用python看了一下缺失值情况以及各列的数据样式。
 
@@ -26,20 +26,20 @@
 模型评估部分关闭了dropout和梯度计算，然后计算准确率来评估。
 
 这是训练的数据：
-![alt text](kaggle%20(3).png)
+![alt text](/images/kaggle/kaggle-training.png)
 
 在训练集上的准确率在82%左右，在验证集上的准确率为80%左右，有一点轻微的过拟合。
 
 当我把dropout从0.2改为0.3以后，训练数据变成了这样：
-![alt text](image-4.png)
+![alt text](/images/kaggle/image-4.png)
 
 验证集的准确率有一点点的提高。
 
 当我把dropout改回0.2，并把学习率改为0.0005的时候，产生了过拟合的前兆，模型在训练集和验证集上的准确率并没有提升很多，但是loss在持续下降，模型在训练集上越来越自信：
-![alt text](image-5.png)
+![alt text](/images/kaggle/image-5.png)
 
 当我把学习率调大一点，直接出现了明显的过拟合现象：
-![alt text](image-6.png)
+![alt text](/images/kaggle/image-6.png)
 
 如果想要提升准确率，只能采用其他策略，单纯的调参已经无法大幅度提升了。
 
