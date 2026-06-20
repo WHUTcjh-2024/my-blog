@@ -2,7 +2,7 @@ name: Deploy VitePress to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, gh-pages ]
   workflow_dispatch:
 
 permissions:
@@ -26,11 +26,15 @@ jobs:
       - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: .vitepress/dist
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
