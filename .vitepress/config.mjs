@@ -6,8 +6,8 @@ export default defineConfig({
   lang: "zh-CN",
   base: "/my-blog/",
 
-  // 允许用户切换亮色/暗色模式
-  appearance: true,
+  // 默认亮色主题，用户可手动切换
+  appearance: 'light',
 
   themeConfig: {
     nav: [
