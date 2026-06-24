@@ -4,9 +4,4 @@ node_modules/
 dist/
 .project/
 metadata.json
-
-# Build artifacts
-*.html
-assets/
-vp-icons.css
 hashmap.json
