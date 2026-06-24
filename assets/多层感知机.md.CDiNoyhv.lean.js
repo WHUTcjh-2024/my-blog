@@ -1,1 +1,0 @@
-import{_ as i,o as a,c as n,a0 as h}from"./chunks/framework.-mROjw-3.js";const g=JSON.parse('{"title":"多层感知机MLP","description":"","frontmatter":{},"headers":[],"relativePath":"多层感知机.md","filePath":"多层感知机.md"}'),p={name:"多层感知机.md"};function l(k,s,t,e,E,r){return a(),n("div",null,[...s[0]||(s[0]=[h("",52)])])}const y=i(p,[["render",l]]);export{g as __pageData,y as default};

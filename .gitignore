@@ -1,5 +1,12 @@
 node_modules/
 .vitepress/cache/
+.vitepress/dist/
 dist/
 .project/
 metadata.json
+
+# Build artifacts
+*.html
+assets/
+vp-icons.css
+hashmap.json

@@ -6,7 +6,8 @@ export default defineConfig({
   lang: "zh-CN",
   base: "/my-blog/",
 
-  appearance: 'dark',
+  // 允许用户切换亮色/暗色模式
+  appearance: true,
 
   themeConfig: {
     nav: [
@@ -47,6 +48,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "深度学习",
+        collapsed: true,
         items: [
           { text: "线性回归", link: "/deep-learning/线性神经网络1" },
           { text: "softmax回归", link: "/deep-learning/线性神经网络2" },
@@ -64,6 +66,7 @@ export default defineConfig({
       },
       {
         text: "项目阐述",
+        collapsed: true,
         items: [
           { text: "基于SIREN与PINNs的激光衍射系统", link: "/projects/SIREN-PINNs" },
           { text: "基于RAG的多模态电商智能导购agent", link: "/projects/RAG-agent" }
@@ -71,12 +74,14 @@ export default defineConfig({
       },
       {
         text: "算法",
+        collapsed: true,
         items: [
           { text: "算法笔记", link: "/algorithms/" }
         ]
       },
       {
         text: "Kaggle竞赛",
+        collapsed: true,
         items: [
           { text: "Spaceship Titanic", link: "/kaggle/Spaceship Titanic" },
           { text: "CIFAR-100 图像分类", link: "/kaggle/CIFAR-100" }
