@@ -36,11 +36,8 @@ export default defineConfig({
           { text: "深度卷积神经网络（AlexNet）", link: "/deep-learning/深度卷积神经网络" },
           { text: "使用块的网络（VGG）", link: "/deep-learning/VGG" },
           { text: "网络中的网络（NiN）", link: "/deep-learning/NiN" },
-          { text: "含并行连结的网络（GoogLeNet）", link: "/deep-learning/api-examples" },
-          { text: "残差网络（ResNet）", link: "/deep-learning/api-examples" },
-          { text: "稠密连接网络（DenseNet）", link: "/deep-learning/api-examples" },
           { text: "循环神经网络（RNN）", link: "/deep-learning/循环神经网络" },
-          { text: "注意力机制与Transformer", link: "/deep-learning/api-examples" }
+          { text: "注意力机制与Transformer", link: "/deep-learning/注意力机制与Transformer" }
         ]
       }
     ],
@@ -57,11 +54,8 @@ export default defineConfig({
           { text: "AlexNet", link: "/deep-learning/深度卷积神经网络" },
           { text: "VGG", link: "/deep-learning/VGG" },
           { text: "NiN", link: "/deep-learning/NiN" },
-          { text: "GoogLeNet", link: "/deep-learning/api-examples" },
-          { text: "ResNet", link: "/deep-learning/api-examples" },
-          { text: "DenseNet", link: "/deep-learning/api-examples" },
           { text: "循环神经网络（RNN）", link: "/deep-learning/循环神经网络" },
-          { text: "注意力机制与Transformer", link: "/deep-learning/api-examples" }
+          { text: "注意力机制与Transformer", link: "/deep-learning/注意力机制与Transformer" }
         ]
       },
       {
