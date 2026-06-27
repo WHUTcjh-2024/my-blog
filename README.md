@@ -1,8 +1,10 @@
 📝 陈俊宏的博客
-一个基于 VitePress 构建的个人技术博客，记录 AI 方向的学习笔记与项目实践。
+一个基于开源项目 VitePress 构建的个人技术博客，记录 AI 方向的学习笔记与项目实践。
+
 
 🔗 在线访问
 👉 https://whutcjh-2024.github.io/my-blog/
+
 
 📚 内容
 深度学习 — 从线性回归到 Transformer，系统梳理经典模型
