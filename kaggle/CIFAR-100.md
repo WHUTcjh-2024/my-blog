@@ -1,12 +1,12 @@
-# Kaggle题目：CIFAR-100 - Object Recognition in Images（基于CNN实现）
+# CIFAR-100 图像分类：ResNet-18 训练与过拟合复盘
 
 这次打的是 Kaggle 上的 CIFAR-100 图像分类题目，目标是把 32×32 的小图分到 100 个类别里。用的是 CNN 方案，具体来说是在 ResNet-18 的基础上做迁移学习。跑的地方是 Kaggle Notebook，绑了手机号以后每周能白嫖 20-30 小时的 GPU，种类还挺多的，跑基本任务完全够用。
 
-![alt text](/images/kaggle/image-9.png)
+![CIFAR-100 Kaggle 项目页面](/images/kaggle/image-9.png)
 
 下载好数据集之后，第一步当然是先打印一些样本看看数据长什么样。CIFAR-100 有 50000 张训练图和 10000 张测试图，每张都是 32×32 的彩色图，100 个类别。说实话 32×32 真的很小，人眼看起来都有点费劲，所以这对模型来说也是个挑战。
 
-![alt text](/images/kaggle/image-8.png)
+![CIFAR-100 图像样本](/images/kaggle/image-8.png)
 
 # 数据预处理
 
@@ -53,9 +53,9 @@ DataLoader 那边，batch_size=128，训练集每轮打乱顺序，测试集不�
 这是第一次训练的结果，设置了30轮epoch，使用GPU P100进行训练，大约训练一个epoch需要1分钟左右，训练完成后发现，在训练集上的表现太好了，达到了95%之多，但是在验证集上的表现远低于训练集，只有73%左右，出现了严重的过拟合。
 
 ## 这次跑下来算是把整个流程走通了，但效果不理想，时间原因，后面还会继续做这个，把ResNet改掉，换一个别的CNN试一下，我的计划是，哪怕在验证集上的表现不太好，但是不能过拟合，要保证在训练集上的准确率和在验证集上的准确率差别不大。这是冲榜的关键，尤其是私榜。
-![alt text](/images/kaggle/image-10.png)
+![CIFAR-100 首次训练结果](/images/kaggle/image-10.png)
 
-![alt text](/images/kaggle/image-11.png)
+![CIFAR-100 训练与验证指标对比](/images/kaggle/image-11.png)
 
 
 # 个人的一些想法

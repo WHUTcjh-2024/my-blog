@@ -2,7 +2,7 @@ name: Deploy VitePress to GitHub Pages
 
 on:
   push:
-    branches: [ main, gh-pages ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install
+      - run: npm install --no-audit --no-fund
       - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
         with:
