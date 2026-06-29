@@ -23,7 +23,13 @@ jobs:
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund
-      - run: npm run docs:build
+      - name: Debug info
+        run: |
+          node --version
+          npm --version
+          npx vitepress --version 2>/dev/null || true
+          ls -la .vitepress/
+      - run: npm run docs:build 2>&1
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .vitepress/dist
