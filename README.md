@@ -11,7 +11,7 @@
 ## 重点项目
 
 - 基于 RAG 的多模态电商智能导购 Agent
-- 基于 SIREN 与 PINNs 的激光衍射自动测量系统
+- 基于 SIREN 与物理先验的液体表面张力智能实验系统
 - Spaceship Titanic & CIFAR-100 Kaggle 实战
 
 ## 技术栈
@@ -27,7 +27,6 @@
 - **核心项目：** AI 项目复盘与系统设计
 - **工程笔记：** 深度学习 — 从线性回归到 Transformer，系统梳理经典模型
 - **Kaggle 实战：** Spaceship Titanic、CIFAR-100 图像分类等实战
-- **算法笔记：** 常用算法与刷题记录
 
 ## 本地运行
 

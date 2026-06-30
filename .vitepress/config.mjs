@@ -7,6 +7,9 @@ export default defineConfig({
   base: '/my-blog/',
   appearance: 'light',
   cleanUrls: true,
+  markdown: {
+    math: true
+  },
 
   themeConfig: {
     nav: [
@@ -14,7 +17,6 @@ export default defineConfig({
       { text: '核心项目', link: '/projects/' },
       { text: '工程笔记', link: '/deep-learning/' },
       { text: 'Kaggle 实战', link: '/kaggle/Spaceship Titanic' },
-      { text: '算法笔记', link: '/algorithms/' },
       { text: '关于我', link: '/about' }
     ],
 
@@ -25,7 +27,7 @@ export default defineConfig({
           items: [
             { text: '项目总览', link: '/projects/' },
             { text: '多模态电商导购 Agent', link: '/projects/RAG-agent' },
-            { text: '激光衍射自动测量系统', link: '/projects/SIREN-PINNs' }
+            { text: '液体表面张力智能实验系统', link: '/projects/SIREN-PINNs' }
           ]
         }
       ],
@@ -54,9 +56,6 @@ export default defineConfig({
             { text: 'CIFAR-100 图像分类', link: '/kaggle/CIFAR-100' }
           ]
         }
-      ],
-      '/algorithms/': [
-        { text: '算法笔记', items: [{ text: '内容说明', link: '/algorithms/' }] }
       ]
     },
 

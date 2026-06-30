@@ -2,18 +2,18 @@
 const projects = [
   {
     type: 'Agent / RAG',
-    title: '基于 RAG 的多模态电商智能导购 Agent',
-    description: '面向电商导购场景，组织商品知识库、检索增强问答与 Agent 工具调用，支持多轮交互和推荐理由解释。',
-    stack: ['FastAPI', 'RAG', '向量数据库', '多模态检索', 'Agent'],
-    highlights: ['商品知识库构建', '检索增强问答', '多轮对话', '推荐解释'],
+    title: 'Atelier 多模态电商导购 Agent',
+    description: '基于 5,000 件真实商品构建文本、图像与结构化属性的融合检索，并通过受控工具完成推荐、对比、加购和模拟下单。',
+    stack: ['FastAPI', 'LangChain', 'MiniLM', 'CLIP', 'React'],
+    highlights: ['多模态融合检索', 'Grounded 推荐', '多轮持久化', '无 LLM 回退'],
     link: '/projects/RAG-agent'
   },
   {
     type: 'Deep Learning / CV',
-    title: '基于 SIREN 与 PINNs 的激光衍射自动测量系统',
-    description: '将图像处理、隐式神经表示与物理约束建模结合，用于激光衍射条纹分析和高精度自动测量。',
-    stack: ['PyTorch', 'SIREN', 'PINNs', 'OpenCV', '图像处理'],
-    highlights: ['条纹中心定位', '物理约束建模', '亚像素级测量', '实验误差分析'],
+    title: '基于 SIREN 与物理先验的表面张力智能实验系统',
+    description: '将 OpenCV、EasyOCR、SIREN 连续光强拟合与物理先验结合，完成衍射条纹定位、标尺标定和表面张力计算。',
+    stack: ['FastAPI', 'Vue 3', 'PyTorch', 'SIREN', 'OpenCV'],
+    highlights: ['条纹连续拟合', '稳健标尺标定', '表面张力计算', 'RAG 实验助手'],
     link: '/projects/SIREN-PINNs'
   },
   {

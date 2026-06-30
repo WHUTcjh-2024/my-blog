@@ -43,6 +43,19 @@ body { background: var(--vp-c-bg); }
 .VPNavBarMenuLink.active { color: var(--vp-c-brand-1); }
 .VPDoc h1 { letter-spacing: -.025em; }
 .VPDoc a { text-underline-offset: 3px; }
+.VPDoc .vp-doc img {
+  display: block;
+  width: 100%;
+  max-width: 100% !important;
+  height: auto;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+}
+.vp-doc mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
+}
 
 .portfolio-home {
   max-width: 1180px;
