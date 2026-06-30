@@ -13,7 +13,7 @@ const projects = [
     title: '基于 SIREN 与物理先验的表面张力智能实验系统',
     description: '将 OpenCV、EasyOCR、SIREN 连续光强拟合与物理先验结合，完成衍射条纹定位、标尺标定和表面张力计算。',
     stack: ['FastAPI', 'Vue 3', 'PyTorch', 'SIREN', 'OpenCV'],
-    highlights: ['条纹连续拟合', '稳健标尺标定', '表面张力计算', 'RAG 实验助手'],
+    highlights: ['条纹连续拟合', '稳健标尺标定', '教师端驾驶舱', 'RAG 实验助手'],
     link: '/projects/SIREN-PINNs'
   },
   {

@@ -20,7 +20,7 @@ description: 陈俊宏的 AI 应用、深度学习与机器学习项目作品集
 面向液体表面张力实验中人工读数效率低、像素取整和 OCR 误识别会放大误差的问题，构建从实验图像上传、条纹定位、标尺标定到表面张力计算与实验答疑的完整流程。
 
 - **技术栈：** Vue 3、FastAPI、PyTorch、SIREN、OpenCV、EasyOCR、scikit-learn
-- **工程重点：** 传统 CV 初值、连续光强拟合、弱物理先验、稳健线性标定、本地 RAG
+- **工程重点：** 传统 CV 初值、连续光强拟合、稳健线性标定、教师端教学驾驶舱、本地 RAG
 - **项目介绍：** [查看算法链路、技术取舍和系统边界](/projects/SIREN-PINNs)
 
 ## Spaceship Titanic Kaggle 实战
